@@ -124,6 +124,10 @@ img {
   z-index: 100;
 }
 
+.section-hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
 /* nav and stickly class at the same time */
 .nav.sticky {
   position: fixed;
